@@ -1,0 +1,13 @@
+# 在本機終端機執行：
+cd ~/gemini-live-web-console
+
+# 初始化 git（如果還沒有的話）
+git init
+git add .
+git commit -m "Initial commit"
+
+# 建立 repository 並上傳
+gh repo create gemini-live-voice --public --source=. --clone=false
+# 或
+git remote add origin https://github.com/YOUR_USERNAME/gemini-live-voice.git
+git push -u origin main
