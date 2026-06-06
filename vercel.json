@@ -1,6 +1,5 @@
 {
-  "buildCommand": "npm run build",
+  "buildCommand": "echo 'Static build - no build needed'",
   "outputDirectory": "build",
-  "installCommand": "npm install",
-  "framework": null
+  "installCommand": "echo 'No install needed'"
 }
